@@ -138,10 +138,6 @@ p {
     }
 }
 
-.main-sec{
-    display: none;
-}
-
 [type=password], [type=email], [type=number], [type=tel], [type=url], [type=text], [type=date], input {
     direction: rtl;
 }
@@ -1336,6 +1332,7 @@ select [selected]{
     align-items: center;
     /* justify-content: space-between; */
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .Servcies-heading form .input-g{
